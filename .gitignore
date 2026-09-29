@@ -1,0 +1,63 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+.venv-test/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# IDE
+.vscode/
+.~lock.*
+
+# Large installers
+*.deb
+
+# Backups
+*.bak
+*.bak2
+*.bak3
+
+# Generated scraping output
+jobs_output*.csv
+scraped_seen.json
+scraped_seen.json.bak
+admin_sent_jobs.json
+
+# Large job datasets
+# Uncomment if you don't want to upload all generated CSV datasets
+# *.csv
+# *.xlsx
+
+# Large installers
+*.deb
+
+# Generated datasets
+*.csv
+*.xlsx
+
+# Backups
+*.bak
+*.bak2
+*.bak3
+
+# Environment/secrets
+.env
+.env.*
+!.env.example
+
+# Cache
+.refetch_skills_cache/
+
+# Logs
+*.log
+
+# Generated/debug JSON
+final28.json
+probe28.json
